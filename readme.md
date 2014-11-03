@@ -5,7 +5,7 @@ Microtemplate is a small render function that is based on http://ejohn.org/blog/
 
 I use the 'fs' module to read the template file into a variable at build-time.
 
-## install
+## Content
 
 * [Install](#install)
 * [Watch and complie browserify](#watch)
