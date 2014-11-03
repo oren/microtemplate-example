@@ -12,6 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
                      text: 'hello'
                    };
 
-  var itemTmpl = fs.readFileSync('item.html', 'utf8');
+  var itemTmpl = fs.readFileSync('user_template.html', 'utf8');
   users.innerHTML = tmpl(itemTmpl)(dataObject);
 });
