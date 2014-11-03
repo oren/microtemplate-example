@@ -8,14 +8,14 @@ I use the 'fs' module to read the template file into a variable at build-time.
 ## Content
 
 * [Install](#install)
-* [Watch and complie browserify](#watch)
+* [Complie browserify](#watch)
 * [Run](#run)
 
 ## Install
 
     npm install
 
-## Watch and compile browserify
+## Compile browserify
 
     npm run build
 
