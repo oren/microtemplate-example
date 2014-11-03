@@ -1,7 +1,7 @@
 # micro template usage
 
 This project is demonstrating how to use the microtemplate module.  
-Microtemplate is a small render function that is based on http://ejohn.org/blog/javascript-micro-templating/#postcomment  
+Microtemplate is a small render function that is based on http://ejohn.org/blog/javascript-micro-templating  
 It's a simple function that was written by John Resig (the lead dev of jQuery) and was designed for speed. It can run on the client or on the server.  
 Here are more template engines: http://garann.github.io/template-chooser/
 
