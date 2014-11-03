@@ -1,0 +1,20 @@
+{
+  "name": "micro-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify -t brfs main.js -o bundle.js",
+    "build": "browserify -t brfs main.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "microtemplate": "^0.1.4"
+  },
+  "devDependencies": {
+    "brfs": "^1.2.0",
+    "watchify": "^2.1.1"
+  }
+}
